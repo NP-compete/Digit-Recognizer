@@ -1,5 +1,3 @@
-#setwd("~/Documents/projects/digits/digits/")
-
 fileName <- './www/src.txt'
 text_src <- readChar(fileName, file.info(fileName)$size)
 digits <- data.frame(num = 0:9,txt = c("zero","one","two","three","four","five","six","seven","eight","nine"))
